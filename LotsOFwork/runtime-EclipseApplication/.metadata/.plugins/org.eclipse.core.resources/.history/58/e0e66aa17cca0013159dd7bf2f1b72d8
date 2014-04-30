@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/FirstProject/Test.bpo|org.eventb.core.poFile#Test|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="y" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="INITIALISATION/inv1/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/FirstProject/Test.bpo|org.eventb.core.poFile#Test|org.eventb.core.poPredicateSet#EVTALLHYPz"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="3∈ℕ" org.eventb.core.source="/FirstProject/Test.bum|org.eventb.core.machineFile#Test|org.eventb.core.invariant#*"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/FirstProject/Test.bum|org.eventb.core.machineFile#Test|org.eventb.core.event#'"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/FirstProject/Test.bum|org.eventb.core.machineFile#Test|org.eventb.core.invariant#*"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/FirstProject/Test.bpo|org.eventb.core.poFile#Test|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/FirstProject/Test.bpo|org.eventb.core.poFile#Test|org.eventb.core.poSequent#INITIALISATION\/inv1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/FirstProject/Test.bpo|org.eventb.core.poFile#Test|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTz" org.eventb.core.parentSet="/FirstProject/Test.bpo|org.eventb.core.poFile#Test|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="y'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPz" org.eventb.core.parentSet="/FirstProject/Test.bpo|org.eventb.core.poFile#Test|org.eventb.core.poPredicateSet#EVTIDENTz" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poSequent name="firstEvt/grd1/THM" org.eventb.core.accurate="false" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/FirstProject/Test.bpo|org.eventb.core.poFile#Test|org.eventb.core.poPredicateSet#EVTIDENT{"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="y&gt;1" org.eventb.core.source="/FirstProject/Test.bum|org.eventb.core.machineFile#Test|org.eventb.core.event#(|org.eventb.core.guard#'"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/FirstProject/Test.bum|org.eventb.core.machineFile#Test|org.eventb.core.event#(|org.eventb.core.guard#'"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/FirstProject/Test.bpo|org.eventb.core.poFile#Test|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/FirstProject/Test.bpo|org.eventb.core.poFile#Test|org.eventb.core.poPredicateSet#EVTIDENT{"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="firstEvt/inv1/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/FirstProject/Test.bpo|org.eventb.core.poFile#Test|org.eventb.core.poPredicateSet#EVTALLHYP{"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="y − 1∈ℕ" org.eventb.core.source="/FirstProject/Test.bum|org.eventb.core.machineFile#Test|org.eventb.core.invariant#*"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/FirstProject/Test.bum|org.eventb.core.machineFile#Test|org.eventb.core.event#("/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/FirstProject/Test.bum|org.eventb.core.machineFile#Test|org.eventb.core.invariant#*"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/FirstProject/Test.bpo|org.eventb.core.poFile#Test|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/FirstProject/Test.bpo|org.eventb.core.poFile#Test|org.eventb.core.poSequent#firstEvt\/inv1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/FirstProject/Test.bpo|org.eventb.core.poFile#Test|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENT{" org.eventb.core.parentSet="/FirstProject/Test.bpo|org.eventb.core.poFile#Test|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="y'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYP{" org.eventb.core.parentSet="/FirstProject/Test.bpo|org.eventb.core.poFile#Test|org.eventb.core.poPredicateSet#EVTIDENT{" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="y&gt;1" org.eventb.core.source="/FirstProject/Test.bum|org.eventb.core.machineFile#Test|org.eventb.core.event#(|org.eventb.core.guard#'"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/FirstProject/Test.bpo|org.eventb.core.poFile#Test|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="y∈ℕ" org.eventb.core.source="/FirstProject/Test.bum|org.eventb.core.machineFile#Test|org.eventb.core.invariant#*"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

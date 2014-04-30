@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<index_root>
+<pim project="/FirstProject">
+<rodin_index>
+<descriptor element="/FirstProject/Test.bum|org.eventb.core.machineFile#Test|org.eventb.core.event#'" name="INITIALISATION">
+<occurrence element="/FirstProject/Test.bum|org.eventb.core.machineFile#Test|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/FirstProject/Test.bum|org.eventb.core.machineFile#Test|org.eventb.core.variable#+" name="b">
+<occurrence element="/FirstProject/Test.bum|org.eventb.core.machineFile#Test|org.eventb.core.invariant#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/FirstProject/Test.bum|org.eventb.core.machineFile#Test|org.eventb.core.variable#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/FirstProject/Test.bum|org.eventb.core.machineFile#Test" name="Test">
+<occurrence element="/FirstProject/Test.bum|org.eventb.core.machineFile#Test" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/FirstProject/Test.bum|org.eventb.core.machineFile#Test|org.eventb.core.variable#)" name="y">
+<occurrence element="/FirstProject/Test.bum|org.eventb.core.machineFile#Test|org.eventb.core.event#(|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/FirstProject/Test.bum|org.eventb.core.machineFile#Test|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/FirstProject/Test.bum|org.eventb.core.machineFile#Test|org.eventb.core.event#(|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/FirstProject/Test.bum|org.eventb.core.machineFile#Test|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/FirstProject/Test.bum|org.eventb.core.machineFile#Test|org.eventb.core.event#(|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/FirstProject/Test.bum|org.eventb.core.machineFile#Test|org.eventb.core.variable#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/FirstProject/Test.bum|org.eventb.core.machineFile#Test|org.eventb.core.event#(" name="firstEvt">
+<occurrence element="/FirstProject/Test.bum|org.eventb.core.machineFile#Test|org.eventb.core.event#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+</rodin_index>
+<export_table>
+<export file="/FirstProject/Test.bum">
+<exported element="/FirstProject/Test.bum|org.eventb.core.machineFile#Test" name="Test"/>
+<exported element="/FirstProject/Test.bum|org.eventb.core.machineFile#Test|org.eventb.core.variable#+" name="b"/>
+<exported element="/FirstProject/Test.bum|org.eventb.core.machineFile#Test|org.eventb.core.variable#)" name="y"/>
+<exported element="/FirstProject/Test.bum|org.eventb.core.machineFile#Test|org.eventb.core.event#(" name="firstEvt"/>
+<exported element="/FirstProject/Test.bum|org.eventb.core.machineFile#Test|org.eventb.core.event#'" name="INITIALISATION"/>
+</export>
+</export_table>
+<graph is_sorted="true">
+<node label="/FirstProject/Test.bum" mark="false" order_pos="0"/>
+</graph>
+<unprocessed file="/FirstProject/Test.bcm"/>
+<unprocessed file="/FirstProject/Test.bpo"/>
+<unprocessed file="/FirstProject/Test.bpr"/>
+<unprocessed file="/FirstProject/Test.bps"/>
+<unprocessed file="/FirstProject/Test0.bcm"/>
+<unprocessed file="/FirstProject/Test0.bpo"/>
+</pim>
+<delta_list/>
+<indexer_registry>
+<registry_entry element_type="org.rodinp.core.tests.test">
+<indexer id="fakeExceptionIndexer"/>
+<indexer id="fakeFailIndexer"/>
+<indexer id="fakeGetDeclIndexer"/>
+<indexer id="fakeIndexer"/>
+<indexer id="fakeExportndexer"/>
+<indexer id="fakeDependenceIndexer"/>
+<indexer id="fakeNameIndexer"/>
+</registry_entry>
+<registry_entry element_type="org.rodinp.core.tests.test2">
+<indexer id="fakeNameIndexer"/>
+</registry_entry>
+<registry_entry element_type="org.eventb.core.machineFile">
+<indexer id="machineIndexer"/>
+</registry_entry>
+<registry_entry element_type="org.eventb.core.contextFile">
+<indexer id="contextIndexer"/>
+</registry_entry>
+</indexer_registry>
+</index_root>

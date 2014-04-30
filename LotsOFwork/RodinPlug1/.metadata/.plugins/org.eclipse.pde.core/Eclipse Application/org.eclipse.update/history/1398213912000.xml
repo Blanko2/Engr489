@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1398213912651" transient="false" version="3.0">
+<site enabled="true" policy="USER-EXCLUDE" updateable="true" url="platform:/base/">
+<feature id="org.eclipse.equinox.p2.rcp.feature.source" url="features/org.eclipse.equinox.p2.rcp.feature.source_1.1.0.v20121211-153934-785EoBqNKNZz-DW7sUc8hFwz00wd/" version="1.1.0.v20121211-153934-785EoBqNKNZz-DW7sUc8hFwz00wd">
+</feature>
+<feature id="org.rodinp" url="features/org.rodinp_1.7.0.201403141545-e3d282b/" version="1.7.0.201403141545-e3d282b">
+</feature>
+<feature id="fr.systerel.editor" url="features/fr.systerel.editor_0.7.0.201403141545-e3d282b/" version="0.7.0.201403141545-e3d282b">
+</feature>
+<feature id="org.eclipse.equinox.p2.core.feature" url="features/org.eclipse.equinox.p2.core.feature_1.1.0.v20121211-153934-8297FndFWmE7h7Bpz-vcqkxyKz0/" version="1.1.0.v20121211-153934-8297FndFWmE7h7Bpz-vcqkxyKz0">
+</feature>
+<feature id="org.rodinp.platform" url="features/org.rodinp.platform_3.0.0.201403141545-e3d282b/" version="3.0.0.201403141545-e3d282b">
+</feature>
+<feature id="org.eclipse.equinox.p2.extras.feature.source" url="features/org.eclipse.equinox.p2.extras.feature.source_1.1.0.v20121211-153934-7A6FEcDiVOTg2RYDuZuFz-L2z00w/" version="1.1.0.v20121211-153934-7A6FEcDiVOTg2RYDuZuFz-L2z00w">
+</feature>
+<feature id="org.eclipse.platform" url="features/org.eclipse.platform_3.8.1.v20130118-180812-9jF7oIBFG8eU2pim-VbIlTuQjY0RWWK3x-bv4I/" version="3.8.1.v20130118-180812-9jF7oIBFG8eU2pim-VbIlTuQjY0RWWK3x-bv4I">
+</feature>
+<feature id="org.eventb.ide" url="features/org.eventb.ide_3.0.0.201403141545-e3d282b/" version="3.0.0.201403141545-e3d282b">
+</feature>
+<feature id="org.eclipse.rcp" url="features/org.eclipse.rcp_3.8.2.v20130118-180157-96BuGOZFxwOAeG8Ofmqicz0tPK/" version="3.8.2.v20130118-180157-96BuGOZFxwOAeG8Ofmqicz0tPK">
+</feature>
+<feature id="org.rodinp.platform.sources" url="features/org.rodinp.platform.sources_3.0.0.201403141545-e3d282b/" version="3.0.0.201403141545-e3d282b">
+</feature>
+<feature id="org.eclipse.help" plugin-identifier="org.eclipse.help.base" url="features/org.eclipse.help_1.4.1.v20120912-145617-8R7xFOXFLWUl7PpMEeZNIGkb4/" version="1.4.1.v20120912-145617-8R7xFOXFLWUl7PpMEeZNIGkb4">
+</feature>
+<feature id="org.eclipse.equinox.p2.user.ui.source" url="features/org.eclipse.equinox.p2.user.ui.source_2.2.0.v20121212-204731-62DG9JXTlTj-UXcQ2y3NLn6U4Z3H/" version="2.2.0.v20121212-204731-62DG9JXTlTj-UXcQ2y3NLn6U4Z3H">
+</feature>
+<feature id="org.eclipse.rcp.source" url="features/org.eclipse.rcp.source_3.8.2.v20130118-180157-96BuGOZFxwOAeG8Ofmqicz0tPK/" version="3.8.2.v20130118-180157-96BuGOZFxwOAeG8Ofmqicz0tPK">
+</feature>
+<feature id="org.eclipse.equinox.p2.rcp.feature" url="features/org.eclipse.equinox.p2.rcp.feature_1.1.0.v20121211-153934-785EoBqNKNZz-DW7sUc8hFwz00wd/" version="1.1.0.v20121211-153934-785EoBqNKNZz-DW7sUc8hFwz00wd">
+</feature>
+<feature id="org.eclipse.equinox.p2.core.feature.source" url="features/org.eclipse.equinox.p2.core.feature.source_1.1.0.v20121211-153934-8297FndFWmE7h7Bpz-vcqkxyKz0/" version="1.1.0.v20121211-153934-8297FndFWmE7h7Bpz-vcqkxyKz0">
+</feature>
+<feature id="org.eclipse.platform.source" url="features/org.eclipse.platform.source_3.8.1.v20130118-180812-9jF7oIBFG8eU2pim-VbIlTuQjY0RWWK3x-bv4I/" version="3.8.1.v20130118-180812-9jF7oIBFG8eU2pim-VbIlTuQjY0RWWK3x-bv4I">
+</feature>
+<feature id="org.eclipse.equinox.p2.user.ui" url="features/org.eclipse.equinox.p2.user.ui_2.2.0.v20121212-204731-62DG9JXTlTj-UXcQ2y3NLn6U4Z3H/" version="2.2.0.v20121212-204731-62DG9JXTlTj-UXcQ2y3NLn6U4Z3H">
+</feature>
+<feature id="org.rodinp.platform.tests" url="features/org.rodinp.platform.tests_3.0.0.201403141545-e3d282b/" version="3.0.0.201403141545-e3d282b">
+</feature>
+<feature id="org.eclipse.equinox.p2.extras.feature" url="features/org.eclipse.equinox.p2.extras.feature_1.1.0.v20121211-153934-7A6FEcDiVOTg2RYDuZuFz-L2z00w/" version="1.1.0.v20121211-153934-7A6FEcDiVOTg2RYDuZuFz-L2z00w">
+</feature>
+</site>
+</config>

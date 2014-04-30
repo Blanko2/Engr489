@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eventb.ide"
+      label="%featureName"
+      version="3.0.0.201403141545-e3d282b"
+      provider-name="%providerName"
+      image="rodin_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="fr.systerel.editor"
+         version="0.7.0.201403141545-e3d282b"/>
+
+   <requires>
+      <import feature="org.rodinp.platform" version="0.0.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="org.eventb.core"
+         download-size="793"
+         install-size="1769"
+         version="3.0.0.201403141545-e3d282b"
+         unpack="false"/>
+
+   <plugin
+         id="org.eventb.ui"
+         download-size="1612"
+         install-size="3291"
+         version="3.0.0.201403141545-e3d282b"
+         unpack="false"/>
+
+   <plugin
+         id="org.eventb.core.ast"
+         download-size="644"
+         install-size="1516"
+         version="3.0.0.201403141545-e3d282b"
+         unpack="false"/>
+
+   <plugin
+         id="org.eventb.core.seqprover"
+         download-size="1095"
+         install-size="2625"
+         version="3.0.0.201403141545-e3d282b"
+         unpack="false"/>
+
+   <plugin
+         id="org.eventb.ide"
+         download-size="8"
+         install-size="13"
+         version="3.0.0.201403141545-e3d282b"/>
+
+   <plugin
+         id="org.eventb.pp"
+         download-size="322"
+         install-size="753"
+         version="0.8.0.201403141545-e3d282b"
+         unpack="false"/>
+
+   <plugin
+         id="org.eventb.pp.ui"
+         download-size="10"
+         install-size="13"
+         version="0.2.1.201403141545-e3d282b"
+         unpack="false"/>
+
+   <plugin
+         id="org.eventb.pptrans"
+         download-size="69"
+         install-size="203"
+         version="0.8.0.201403141545-e3d282b"
+         unpack="false"/>
+
+   <plugin
+         id="fr.systerel.explorer"
+         download-size="158"
+         install-size="322"
+         version="2.0.0.201403141545-e3d282b"
+         unpack="false"/>
+
+   <plugin
+         id="org.rodinp.keyboard.ui"
+         download-size="23"
+         install-size="36"
+         version="2.0.0.201403141545-e3d282b"
+         unpack="false"/>
+
+   <plugin
+         id="org.eventb.keyboard"
+         download-size="273"
+         install-size="378"
+         version="1.0.0.201403141545-e3d282b"
+         unpack="false"/>
+
+   <plugin
+         id="ch.ethz.eventb.keyboard.latex"
+         download-size="4"
+         install-size="12"
+         version="1.0.0.201403141545-e3d282b"
+         unpack="false"/>
+
+   <plugin
+         id="org.eventb.ui.symboltable"
+         download-size="26"
+         install-size="48"
+         version="1.2.0.201403141545-e3d282b"
+         unpack="false"/>
+
+   <plugin
+         id="org.rodinp.keyboard.core"
+         download-size="19"
+         install-size="33"
+         version="2.0.0.201403141545-e3d282b"
+         unpack="false"/>
+
+</feature>

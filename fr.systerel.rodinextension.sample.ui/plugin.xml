@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eventb.ui.editorItems">
+      <choiceAttribute
+            class="fr.systerel.rodinextension.sample.ui.Probabilistic"
+            expandsHorizontally="true"
+            id="fr.systerel.rodinextension.sample.ui.probabilistic"
+            required="true"
+            typeId="fr.systerel.rodinextension.sample.probabilistic">
+      </choiceAttribute>
+   </extension>
+
+</plugin>

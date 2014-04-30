@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.rodinp"
+      label="%featureName"
+      version="1.7.0.201403141545-e3d282b"
+      provider-name="%providerName"
+      image="rodin_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <discovery label="%updateSiteName" url="http://rodin-b-sharp.sourceforge.net/updates"/>
+   </url>
+
+   <requires>
+      <import feature="org.eclipse.platform" version="3.8" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="org.rodinp"
+         download-size="3"
+         install-size="4"
+         version="1.7.0.201403141545-e3d282b"/>
+
+   <plugin
+         id="org.rodinp.core"
+         download-size="511"
+         install-size="1103"
+         version="1.7.0.201403141545-e3d282b"
+         unpack="false"/>
+
+   <plugin
+         id="org.rodinp.core.emf"
+         download-size="98"
+         install-size="219"
+         version="1.0.0.201403141545-e3d282b"
+         unpack="false"/>
+
+</feature>

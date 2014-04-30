@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;dstr.rplugview.views.worker1.setMachine()&apos; to &apos;setMachines&apos;&#x0A;- Original project: &apos;dstr.RplugView&apos;&#x0A;- Original element: &apos;dstr.rplugview.views.worker1.setMachine()&apos;&#x0A;- Renamed element: &apos;dstr.rplugview.views.worker1.setMachines()&apos;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;setMachine&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;dstr.rplugview.views{worker1.java[worker1~setMachine" name="setMachines" references="true" stamp="1398210720900" version="1.0"/>
+</session>

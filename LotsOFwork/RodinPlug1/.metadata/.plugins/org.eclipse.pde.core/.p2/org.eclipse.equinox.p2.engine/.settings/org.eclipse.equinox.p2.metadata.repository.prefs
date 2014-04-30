@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+repositories/file\:_D\:_rodinStuff_rodin/enabled=true
+repositories/file\:_D\:_rodinStuff_rodin/isSystem=false
+repositories/file\:_D\:_rodinStuff_rodin/name=org.rodinp.dev
+repositories/file\:_D\:_rodinStuff_rodin/nickname=org.rodinp.dev
+repositories/file\:_D\:_rodinStuff_rodin/suffix=content.xml
+repositories/file\:_D\:_rodinStuff_rodin/type=org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository
+repositories/file\:_D\:_rodinStuff_rodin/uri=file\:/D\:/rodinStuff/rodin/
+repositories/file\:_D\:_rodinStuff_rodin/version=1.0.0
+repositories/jar\:file\:_Users_dstr_Desktop_SWEN421_Rodin3_org.rodinp.dev-3.0.0-e3d282b.zip\!/enabled=true
+repositories/jar\:file\:_Users_dstr_Desktop_SWEN421_Rodin3_org.rodinp.dev-3.0.0-e3d282b.zip\!/isSystem=false
+repositories/jar\:file\:_Users_dstr_Desktop_SWEN421_Rodin3_org.rodinp.dev-3.0.0-e3d282b.zip\!/name=org.rodinp.dev
+repositories/jar\:file\:_Users_dstr_Desktop_SWEN421_Rodin3_org.rodinp.dev-3.0.0-e3d282b.zip\!/nickname=rodinZip
+repositories/jar\:file\:_Users_dstr_Desktop_SWEN421_Rodin3_org.rodinp.dev-3.0.0-e3d282b.zip\!/suffix=content.xml
+repositories/jar\:file\:_Users_dstr_Desktop_SWEN421_Rodin3_org.rodinp.dev-3.0.0-e3d282b.zip\!/type=org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository
+repositories/jar\:file\:_Users_dstr_Desktop_SWEN421_Rodin3_org.rodinp.dev-3.0.0-e3d282b.zip\!/uri=jar\:file\:/Users/dstr/Desktop/SWEN421/Rodin3/org.rodinp.dev-3.0.0-e3d282b.zip\!/
+repositories/jar\:file\:_Users_dstr_Desktop_SWEN421_Rodin3_org.rodinp.dev-3.0.0-e3d282b.zip\!/version=1.0.0

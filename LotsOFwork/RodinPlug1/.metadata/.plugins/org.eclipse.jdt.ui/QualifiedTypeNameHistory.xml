@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.rodinp.core.IRodinProject"/>
+<fullyQualifiedTypeName name="org.rodinp.core.IInternalElement"/>
+<fullyQualifiedTypeName name="org.eventb.core.IVariable"/>
+<fullyQualifiedTypeName name="org.eventb.core.IEvent"/>
+<fullyQualifiedTypeName name="org.eclipse.jface.action.Action"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;dstr.RplugView&apos; to &apos;dstrRplugView&apos;&#x0A;- Original element: &apos;dstr.RplugView&apos;&#x0A;- Renamed element: &apos;dstr.RplugView&apos;&#x0A;- Update references to refactored element" description="Rename Java project &apos;dstr.RplugView&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=dstr.RplugView" name="dstrRplugView" references="true" stamp="1398216418529" version="1.0"/>
+</session>

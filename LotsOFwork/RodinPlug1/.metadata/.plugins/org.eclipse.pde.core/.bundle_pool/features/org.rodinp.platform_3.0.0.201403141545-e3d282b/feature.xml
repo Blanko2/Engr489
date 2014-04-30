@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.rodinp.platform"
+      label="%featureName"
+      version="3.0.0.201403141545-e3d282b"
+      provider-name="%providerName"
+      os="linux,win32,macosx"
+      ws="gtk,win32,cocoa"
+      arch="x86,x86_64"
+      image="rodin_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <discovery label="%updateSiteName" url="http://rodin-b-sharp.sourceforge.net/updates"/>
+   </url>
+
+   <includes
+         id="org.rodinp"
+         version="1.7.0.201403141545-e3d282b"/>
+
+   <requires>
+      <import feature="org.eclipse.platform"/>
+      <import feature="org.eclipse.equinox.p2.user.ui"/>
+   </requires>
+
+   <plugin
+         id="org.rodinp.platform"
+         download-size="194"
+         install-size="728"
+         version="3.0.0.201403141545-e3d282b"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.views.log"
+         download-size="136"
+         install-size="254"
+         version="1.0.300.v20120530-1435"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.simpleconfigurator"
+         download-size="39"
+         install-size="71"
+         version="1.0.301.v20120914-163612"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.runtime"
+         download-size="73"
+         install-size="154"
+         version="3.8.0.v20120521-2346"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.common"
+         download-size="104"
+         install-size="192"
+         version="3.6.100.v20120522-1841"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.ds"
+         download-size="189"
+         install-size="390"
+         version="1.4.1.v20120926-201320"
+         unpack="false"/>
+
+</feature>

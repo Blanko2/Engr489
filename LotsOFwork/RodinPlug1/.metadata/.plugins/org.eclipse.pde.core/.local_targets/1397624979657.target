@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?><target name="RodinTarget" sequenceNumber="9">
+<locations>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="fr.systerel.editor.feature.group" version="0.7.0.201403141545-e3d282b"/>
+<unit id="org.rodinp.feature.group" version="1.7.0.201403141545-e3d282b"/>
+<unit id="org.eventb.ide.feature.group" version="3.0.0.201403141545-e3d282b"/>
+<unit id="org.rodinp.platform.tests.feature.group" version="3.0.0.201403141545-e3d282b"/>
+<unit id="org.rodinp.platform.feature.group" version="3.0.0.201403141545-e3d282b"/>
+<unit id="org.rodinp.platform.sources.feature.group" version="3.0.0.201403141545-e3d282b"/>
+<repository location="file:/D:/rodinStuff/rodin/"/>
+</location>
+</locations>
+</target>
